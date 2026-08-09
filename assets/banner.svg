@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E3C72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2A5298;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .title { font: bold 40px sans-serif; fill: white; text-anchor: middle; }
+      .subtitle { font: 20px sans-serif; fill: #D3E0F7; text-anchor: middle; }
+      .wave { animation: drift 5s linear infinite; }
+      @keyframes drift {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50px); }
+      }
+    </style>
+  </defs>
+  <rect width="800" height="200" fill="url(#grad1)" rx="10"/>
+  <path class="wave" d="M0 180 Q 50 160 100 180 T 200 180 T 300 180 T 400 180 T 500 180 T 600 180 T 700 180 T 800 180 T 850 180 V 200 H 0 Z" fill="#ffffff" opacity="0.2"/>
+  <path class="wave" d="M-50 190 Q 0 170 50 190 T 150 190 T 250 190 T 350 190 T 450 190 T 550 190 T 650 190 T 750 190 T 850 190 V 200 H -50 Z" fill="#ffffff" opacity="0.3"/>
+  <text x="400" y="90" class="title">🚢 Awesome Port Management</text>
+  <text x="400" y="130" class="subtitle">Curated list of TOS, Port Logistics, and Maritime Software</text>
+</svg>
